@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strict PSD to HTML</title>
+
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<!--Font awesome-->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+	<!--Theme CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--StyleSheet slideshow of images-->
+	<style type="text/css">
+		#slider{
+			overflow: hidden;
+			padding-bottom: 50px;
+			float: left;
+		}
+		#slider figure{
+			position: relative;
+			width: 500%;
+			margin: 0;
+			left: 0;
+			animation: 20s slider infinite;
+		}
+		#slider figure img{
+			width: 20%;
+			float: left;
+		}
+		@keyframes slider{
+			0%{
+				left: 0;
+			}
+			20%{
+				left: -100%;
+			}
+			25%{
+				left: -100%;
+			}
+			45%{
+				left: -200%;
+			}
+			50%{
+				left: -200%;
+			}
+			70%{
+				left: -300%;
+			}
+			75%{
+				left: -100%;
+			}
+			95%{
+				left: -100%;
+			}
+			100%{
+				left: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<!--Header Section-->
+
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.png" alt="Logo of the Company" style="width: 80px;">
+			</div>			
+		</div>
+	</header>
+
+	<!--Background Picture section-->
+
+	<section >
+		<div class="container">
+			<div class="banner">
+				<div class="banner-details">
+					<h1>Strict</h1>
+					<span class="border"></span>
+					<p>STRICT is a responsive theme with a clean and minimal look</p>
+					<button type="button" class="btn">Call to Action</button><br>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>				
+				</div>
+			</div>			
+		</div>
+	</section>
+
+	<!--Description Section-->
+
+	<section>
+		<div class="container">
+			<div class="description">
+				<h1>Simle & Pure Design</h1>
+				<p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, its so clean!". There are a<br>countless number of web design found-ups dedicated to 'clean' and it is a term thrown around quite a bit in the web<br>desing community. It can be easy to spot a good example of clean design.</p>				
+			</div>			
+		</div>
+	</section>
+
+	<!--Characterstics of Strict-->
+
+	<section>
+		<div class="container">
+			<div class="charaterstics">
+				<div class="charaterstics1">
+					<i class="fa fa-mobile fa-4x" aria-hidden="true"></i><br><br><h3>Optimized for All Devices</h3><br><p>STRICT has been designed to be fully<br> responsive on all devices.</p>
+				</div>
+				<div class="charaterstics2">
+					<i class="fa fa-location-arrow fa-4x" aria-hidden="true"></i><br><br><h3>Clean & Minimal Design</h3><br><p>This multipurpose theme is especially created<br> to be used for different projects.</p>
+				</div>
+				<div class="charaterstics3">
+					<i class="fa fa-bullhorn fa-4x" aria-hidden="true"></i><br><br><h3>Font Awesome Icon</h3><br><p>This multipurpose theme is especially created<br> to be used for different projects.</p>
+				</div>	
+			</div>		
+		</div>
+	</section>
+
+	<!--Showcase Your Work-->
+
+	<section>
+		<div class="container">
+			<div class="showcase">
+				<div class="show-details">
+					<h2>Showcase Your Work Like a Pro</h2><br><p>Contact me if you like my work</p>
+				</div>
+				<div id="slider">
+					<figure>
+						<img src="img/1.jpg" alt="" style="width: 600px; height: 300px;">
+						<img src="img/2.jpg" alt="" style="width: 600px; height: 300px;">
+						<img src="img/3.jpg" alt="" style="width: 600px; height: 300px;">
+						<img src="img/4.jpg" alt="" style="width: 600px; height: 300px;">
+						<img src="img/5.jpg" alt="" style="width: 600px; height: 300px;">
+						<img src="img/6.jpg" alt="" style="width: 600px; height: 300px;">
+						<img src="img/1.jpg" alt="" style="width: 600px; height: 300px;">
+					</figure>						
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--stay with us-->
+
+	<section>
+		<div class="container">
+			<div class="stay-with-us">
+				<h2>Stay With Us</h2><p>We ensure quality & support</p>	
+			<div class="frm">
+				<input type="text" name="" placeholder="Your Name*" class="name1"><br><br>
+				<input type="text" name="" placeholder="Your Email*" class="name2"><br><br>
+				<textarea placeholder="Message*" class="message"></textarea><br><br>
+				<label><input type="checkbox" name="" class="check">  Subscribe Newsletter</label>
+				<input type="submit" name="" value="Send" class="contact-button">				
+			</div>			
+			</div>
+		</div>
+	</section>
+
+	<!--Footer-->
+
+	<footer>
+		<div class="container">
+			<div class="footer">
+				<p>@Copyright 2020, STRICT</p>
+				<nav>
+					<ul>
+						<li>
+							<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			
+		</div>
+	</footer>
+
+</body>
+</html>
